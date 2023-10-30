@@ -17,9 +17,7 @@
             <input type="password" placeholder="Password" name="password" required>
             <i class="fa-solid fa-lock"></i>
         </div>
-
-        <button type="register" class="btn-register" >Register</button>
-
+            <button type="register" class="btn-register" >Register</button>
     </form>
 </div>
 

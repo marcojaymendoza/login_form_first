@@ -23,7 +23,7 @@ $request->validate([
 ]);
 $credentials = $request->only ('email','password');
     if(Auth::attempt($credentials)){
-        return redirect()->intended(route(name:'home'));
+        return redirect()->intended(route(name:'portfolio'));
     }
     return redirect(route(name:'login'))->with("error","Invalid Email");
     }

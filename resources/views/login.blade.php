@@ -17,7 +17,7 @@
         <button type="login" class="btn-login" >Login</button>
 
         <div class="register-link">
-            <p>Register Here! <a href="#">Register</a></p>
+            <p>Register Here! <a href="{{route('registration.post')}}" method="POST">Register</a></p>
         </div>
     </form>
 </div>
